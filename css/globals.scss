@@ -1,0 +1,22 @@
+$--first-color: hsl(240, 100%, 5%);
+$--second-color: hsl(5, 85%, 63%);
+$--variation-color: hsl(35, 77%, 62%);
+$--color-text: hsl(236, 13%, 42%);
+$--alternative: hsl(233, 8%, 79%);
+$--white: hsl(36, 100%, 99%);
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: auto;
+    padding: 30px 15px 0;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    position: relative;
+}

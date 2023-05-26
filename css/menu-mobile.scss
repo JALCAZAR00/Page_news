@@ -1,0 +1,34 @@
+.inactive{
+    display: none;
+}
+.menu-mobile{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: 100vh;
+    text-align: start;
+    background-color: white;
+    box-shadow: -30vw 0 1px hsl(240, 100%, 5%, 0.500);
+    padding: 120px 6px 0 8px;
+    .menu-close{
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: 0;
+        font-size: 7rem;
+        font-weight: 00;
+    }
+    li{
+        width: 30%;
+        margin: 26px 0;
+        list-style: none;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: $--first-color;
+    }
+    li:hover{
+        cursor: pointer;
+        color: $--variation-color;
+    }
+}

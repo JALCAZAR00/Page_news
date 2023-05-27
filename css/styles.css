@@ -311,6 +311,7 @@ header {
   html body {
     max-width: 1200px;
     max-height: 880px;
+    padding: 0;
   }
   html body header nav .logo {
     width: 70px !important;
@@ -321,11 +322,11 @@ header {
   html body main {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 32px 1fr 32px 1fr 32px 1fr 32px 1fr 32px 1fr;
+    -ms-grid-columns: 1fr 24px 1fr 24px 1fr 24px 1fr 24px 1fr 24px 1fr;
     grid-template-columns: repeat(6, 1fr);
-    -ms-grid-rows: 235px 32px 235px 32px 235px;
+    -ms-grid-rows: 235px 24px 235px 24px 235px;
     grid-template-rows: repeat(3, 235px);
-    gap: 32px;
+    gap: 24px;
     padding: 48px 0;
   }
   html body main > *:nth-child(1) {
@@ -429,11 +430,8 @@ header {
     font-size: 4rem;
     margin-bottom: 10px;
   }
-  html body main .info--container .card-container-info h3 {
-    opacity: 0.9;
-  }
   html body main .info--container .card-container-info p {
-    margin: 12px 0 12px 0;
+    margin: 12px 0 32px 0;
   }
   html body main .section-main--info {
     -ms-grid-column: 1;
@@ -476,7 +474,7 @@ header {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    gap: 16px;
+    gap: 32px;
     width: 50%;
   }
   html body main .section-main--info .info p {

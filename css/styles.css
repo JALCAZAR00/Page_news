@@ -306,16 +306,17 @@ header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    min-height: 100vh;
   }
   html body {
-    max-width: 1300px;
-    max-height: 900px;
+    max-width: 1200px;
+    max-height: 880px;
   }
   html body header nav .logo {
     width: 70px !important;
   }
   html body header nav .container--nav-list li {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   html body main {
     display: -ms-grid;
@@ -479,7 +480,7 @@ header {
     width: 50%;
   }
   html body main .section-main--info .info p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 2.5rem;
     margin: 0;
     padding: 0;
@@ -527,7 +528,7 @@ header {
     font-weight: 800;
   }
   html body main .target-container .target-container__main .target-container-info p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
 .inactive {
